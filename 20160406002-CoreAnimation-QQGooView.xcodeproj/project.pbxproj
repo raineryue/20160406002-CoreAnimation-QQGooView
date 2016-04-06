@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D59D3CB51CB4E26500443460 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3CB41CB4E26500443460 /* main.m */; };
+		D59D3CB81CB4E26500443460 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3CB71CB4E26500443460 /* AppDelegate.m */; };
+		D59D3CBB1CB4E26500443460 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3CBA1CB4E26500443460 /* ViewController.m */; };
+		D59D3CBE1CB4E26500443460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D3CBC1CB4E26500443460 /* Main.storyboard */; };
+		D59D3CC01CB4E26500443460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59D3CBF1CB4E26500443460 /* Assets.xcassets */; };
+		D59D3CC31CB4E26500443460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D3CC11CB4E26500443460 /* LaunchScreen.storyboard */; };
+		D59D3CCE1CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3CCD1CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewTests.m */; };
+		D59D3CD91CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3CD81CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D59D3CCA1CB4E26600443460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59D3CA81CB4E26500443460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59D3CAF1CB4E26500443460;
+			remoteInfo = "20160406002-CoreAnimation-QQGooView";
+		};
+		D59D3CD51CB4E26600443460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D59D3CA81CB4E26500443460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D59D3CAF1CB4E26500443460;
+			remoteInfo = "20160406002-CoreAnimation-QQGooView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D59D3CB01CB4E26500443460 /* 20160406002-CoreAnimation-QQGooView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20160406002-CoreAnimation-QQGooView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59D3CB41CB4E26500443460 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D59D3CB61CB4E26500443460 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D59D3CB71CB4E26500443460 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D59D3CB91CB4E26500443460 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D59D3CBA1CB4E26500443460 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D59D3CBD1CB4E26500443460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59D3CBF1CB4E26500443460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D59D3CC21CB4E26500443460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D59D3CC41CB4E26500443460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59D3CC91CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160406002-CoreAnimation-QQGooViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59D3CCD1CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160406002_CoreAnimation_QQGooViewTests.m; sourceTree = "<group>"; };
+		D59D3CCF1CB4E26600443460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59D3CD41CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160406002-CoreAnimation-QQGooViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59D3CD81CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160406002_CoreAnimation_QQGooViewUITests.m; sourceTree = "<group>"; };
+		D59D3CDA1CB4E26600443460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59D3CAD1CB4E26500443460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D3CC61CB4E26600443460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D3CD11CB4E26600443460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D59D3CA71CB4E26500443460 = {
+			isa = PBXGroup;
+			children = (
+				D59D3CB21CB4E26500443460 /* 20160406002-CoreAnimation-QQGooView */,
+				D59D3CCC1CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewTests */,
+				D59D3CD71CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewUITests */,
+				D59D3CB11CB4E26500443460 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D59D3CB11CB4E26500443460 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59D3CB01CB4E26500443460 /* 20160406002-CoreAnimation-QQGooView.app */,
+				D59D3CC91CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewTests.xctest */,
+				D59D3CD41CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59D3CB21CB4E26500443460 /* 20160406002-CoreAnimation-QQGooView */ = {
+			isa = PBXGroup;
+			children = (
+				D59D3CB61CB4E26500443460 /* AppDelegate.h */,
+				D59D3CB71CB4E26500443460 /* AppDelegate.m */,
+				D59D3CB91CB4E26500443460 /* ViewController.h */,
+				D59D3CBA1CB4E26500443460 /* ViewController.m */,
+				D59D3CBC1CB4E26500443460 /* Main.storyboard */,
+				D59D3CBF1CB4E26500443460 /* Assets.xcassets */,
+				D59D3CC11CB4E26500443460 /* LaunchScreen.storyboard */,
+				D59D3CC41CB4E26500443460 /* Info.plist */,
+				D59D3CB31CB4E26500443460 /* Supporting Files */,
+			);
+			path = "20160406002-CoreAnimation-QQGooView";
+			sourceTree = "<group>";
+		};
+		D59D3CB31CB4E26500443460 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59D3CB41CB4E26500443460 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D59D3CCC1CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D59D3CCD1CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewTests.m */,
+				D59D3CCF1CB4E26600443460 /* Info.plist */,
+			);
+			path = "20160406002-CoreAnimation-QQGooViewTests";
+			sourceTree = "<group>";
+		};
+		D59D3CD71CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D59D3CD81CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewUITests.m */,
+				D59D3CDA1CB4E26600443460 /* Info.plist */,
+			);
+			path = "20160406002-CoreAnimation-QQGooViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59D3CAF1CB4E26500443460 /* 20160406002-CoreAnimation-QQGooView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59D3CDD1CB4E26600443460 /* Build configuration list for PBXNativeTarget "20160406002-CoreAnimation-QQGooView" */;
+			buildPhases = (
+				D59D3CAC1CB4E26500443460 /* Sources */,
+				D59D3CAD1CB4E26500443460 /* Frameworks */,
+				D59D3CAE1CB4E26500443460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20160406002-CoreAnimation-QQGooView";
+			productName = "20160406002-CoreAnimation-QQGooView";
+			productReference = D59D3CB01CB4E26500443460 /* 20160406002-CoreAnimation-QQGooView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D59D3CC81CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59D3CE01CB4E26600443460 /* Build configuration list for PBXNativeTarget "20160406002-CoreAnimation-QQGooViewTests" */;
+			buildPhases = (
+				D59D3CC51CB4E26600443460 /* Sources */,
+				D59D3CC61CB4E26600443460 /* Frameworks */,
+				D59D3CC71CB4E26600443460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59D3CCB1CB4E26600443460 /* PBXTargetDependency */,
+			);
+			name = "20160406002-CoreAnimation-QQGooViewTests";
+			productName = "20160406002-CoreAnimation-QQGooViewTests";
+			productReference = D59D3CC91CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D59D3CD31CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59D3CE31CB4E26600443460 /* Build configuration list for PBXNativeTarget "20160406002-CoreAnimation-QQGooViewUITests" */;
+			buildPhases = (
+				D59D3CD01CB4E26600443460 /* Sources */,
+				D59D3CD11CB4E26600443460 /* Frameworks */,
+				D59D3CD21CB4E26600443460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D59D3CD61CB4E26600443460 /* PBXTargetDependency */,
+			);
+			name = "20160406002-CoreAnimation-QQGooViewUITests";
+			productName = "20160406002-CoreAnimation-QQGooViewUITests";
+			productReference = D59D3CD41CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59D3CA81CB4E26500443460 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D59D3CAF1CB4E26500443460 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D59D3CC81CB4E26600443460 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D59D3CAF1CB4E26500443460;
+					};
+					D59D3CD31CB4E26600443460 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D59D3CAF1CB4E26500443460;
+					};
+				};
+			};
+			buildConfigurationList = D59D3CAB1CB4E26500443460 /* Build configuration list for PBXProject "20160406002-CoreAnimation-QQGooView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59D3CA71CB4E26500443460;
+			productRefGroup = D59D3CB11CB4E26500443460 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59D3CAF1CB4E26500443460 /* 20160406002-CoreAnimation-QQGooView */,
+				D59D3CC81CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewTests */,
+				D59D3CD31CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59D3CAE1CB4E26500443460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D3CC31CB4E26500443460 /* LaunchScreen.storyboard in Resources */,
+				D59D3CC01CB4E26500443460 /* Assets.xcassets in Resources */,
+				D59D3CBE1CB4E26500443460 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D3CC71CB4E26600443460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D3CD21CB4E26600443460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59D3CAC1CB4E26500443460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D3CBB1CB4E26500443460 /* ViewController.m in Sources */,
+				D59D3CB81CB4E26500443460 /* AppDelegate.m in Sources */,
+				D59D3CB51CB4E26500443460 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D3CC51CB4E26600443460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D3CCE1CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59D3CD01CB4E26600443460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59D3CD91CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D59D3CCB1CB4E26600443460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59D3CAF1CB4E26500443460 /* 20160406002-CoreAnimation-QQGooView */;
+			targetProxy = D59D3CCA1CB4E26600443460 /* PBXContainerItemProxy */;
+		};
+		D59D3CD61CB4E26600443460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D59D3CAF1CB4E26500443460 /* 20160406002-CoreAnimation-QQGooView */;
+			targetProxy = D59D3CD51CB4E26600443460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D59D3CBC1CB4E26500443460 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59D3CBD1CB4E26500443460 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59D3CC11CB4E26500443460 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59D3CC21CB4E26500443460 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59D3CDB1CB4E26600443460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D59D3CDC1CB4E26600443460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59D3CDE1CB4E26600443460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160406002-CoreAnimation-QQGooView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160406002-CoreAnimation-QQGooView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D59D3CDF1CB4E26600443460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20160406002-CoreAnimation-QQGooView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160406002-CoreAnimation-QQGooView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D59D3CE11CB4E26600443460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160406002-CoreAnimation-QQGooViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160406002-CoreAnimation-QQGooViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160406002-CoreAnimation-QQGooView.app/20160406002-CoreAnimation-QQGooView";
+			};
+			name = Debug;
+		};
+		D59D3CE21CB4E26600443460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20160406002-CoreAnimation-QQGooViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160406002-CoreAnimation-QQGooViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20160406002-CoreAnimation-QQGooView.app/20160406002-CoreAnimation-QQGooView";
+			};
+			name = Release;
+		};
+		D59D3CE41CB4E26600443460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160406002-CoreAnimation-QQGooViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160406002-CoreAnimation-QQGooViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160406002-CoreAnimation-QQGooView";
+			};
+			name = Debug;
+		};
+		D59D3CE51CB4E26600443460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20160406002-CoreAnimation-QQGooViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0160406002-CoreAnimation-QQGooViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20160406002-CoreAnimation-QQGooView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59D3CAB1CB4E26500443460 /* Build configuration list for PBXProject "20160406002-CoreAnimation-QQGooView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D3CDB1CB4E26600443460 /* Debug */,
+				D59D3CDC1CB4E26600443460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59D3CDD1CB4E26600443460 /* Build configuration list for PBXNativeTarget "20160406002-CoreAnimation-QQGooView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D3CDE1CB4E26600443460 /* Debug */,
+				D59D3CDF1CB4E26600443460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D59D3CE01CB4E26600443460 /* Build configuration list for PBXNativeTarget "20160406002-CoreAnimation-QQGooViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D3CE11CB4E26600443460 /* Debug */,
+				D59D3CE21CB4E26600443460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D59D3CE31CB4E26600443460 /* Build configuration list for PBXNativeTarget "20160406002-CoreAnimation-QQGooViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59D3CE41CB4E26600443460 /* Debug */,
+				D59D3CE51CB4E26600443460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59D3CA81CB4E26500443460 /* Project object */;
+}
