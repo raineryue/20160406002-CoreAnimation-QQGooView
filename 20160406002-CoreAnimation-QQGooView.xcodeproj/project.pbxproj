@@ -15,6 +15,7 @@
 		D59D3CC31CB4E26500443460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59D3CC11CB4E26500443460 /* LaunchScreen.storyboard */; };
 		D59D3CCE1CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3CCD1CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewTests.m */; };
 		D59D3CD91CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3CD81CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewUITests.m */; };
+		D59D3CE81CB4E4DF00443460 /* GooButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D59D3CE71CB4E4DF00443460 /* GooButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D59D3CD41CB4E26600443460 /* 20160406002-CoreAnimation-QQGooViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160406002-CoreAnimation-QQGooViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59D3CD81CB4E26600443460 /* _0160406002_CoreAnimation_QQGooViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0160406002_CoreAnimation_QQGooViewUITests.m; sourceTree = "<group>"; };
 		D59D3CDA1CB4E26600443460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59D3CE61CB4E4DF00443460 /* GooButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooButton.h; sourceTree = "<group>"; };
+		D59D3CE71CB4E4DF00443460 /* GooButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D59D3CB71CB4E26500443460 /* AppDelegate.m */,
 				D59D3CB91CB4E26500443460 /* ViewController.h */,
 				D59D3CBA1CB4E26500443460 /* ViewController.m */,
+				D59D3CE61CB4E4DF00443460 /* GooButton.h */,
+				D59D3CE71CB4E4DF00443460 /* GooButton.m */,
 				D59D3CBC1CB4E26500443460 /* Main.storyboard */,
 				D59D3CBF1CB4E26500443460 /* Assets.xcassets */,
 				D59D3CC11CB4E26500443460 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				D59D3CBB1CB4E26500443460 /* ViewController.m in Sources */,
 				D59D3CB81CB4E26500443460 /* AppDelegate.m in Sources */,
 				D59D3CB51CB4E26500443460 /* main.m in Sources */,
+				D59D3CE81CB4E4DF00443460 /* GooButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
